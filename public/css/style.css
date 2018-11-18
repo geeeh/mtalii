@@ -1,0 +1,394 @@
+/* navbar */
+body {
+  font-family: 'Kievit_book', sans-serif;
+  background: #f5f5f5;
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  color: #ec6952 !important;
+}
+.nav-item {
+  border-left: solid 1px rgb(105, 101, 101);
+  padding: 0 20px;
+}
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /*whatever width you want*/
+}
+
+.inner h4 {
+  margin: 20px 0;
+  font-family: 'Pacifico', cursive;
+  color: #203A43;
+}
+
+.inner button {
+  font-family: 'Kievit_regular', sans-serif;
+}
+
+input, textarea, select {
+  border-color: blue!important;
+  font-size: 14px!important;
+}
+
+input[type='file'] {
+  height: 70px;
+  padding: 20px;
+}
+
+input[type='file'] div {
+  border: none;
+}
+.company-details {
+  min-height: 100vh;
+}
+
+.company-details .col-md-4 {
+  background: #014c69;
+  color: #ffffff;
+}
+.company-details .col-md-4 h4 {
+  color: #ffffff;
+  font-family: 'Kievit_light', sans-serif;
+}
+
+.events-heading {
+  border-bottom: solid 3px #ff7808;
+  width: 170px;
+  margin: 10px 0;
+}
+
+.card {
+  width: 350px;
+  min-height: 250px;
+  background: #ffffff;
+  margin: 10px;
+  border: none;
+  box-shadow: 2px 4px 8px rgba(68, 68, 68, 0.6);
+  float: left;
+}
+
+.card img {
+  width: 350px;
+  height: auto;
+}
+
+.card a img {
+  width: 20px;
+  height: auto;
+}
+
+.info {
+  margin: 10px;
+  display: block;
+}
+
+.info span {
+  display: block;
+}
+.info img {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+}
+
+.ml-auto {
+  padding: 0 10px
+}
+
+.buttons {
+    position: absolute;
+    top: 5px;
+    display: flex;
+}
+
+.buttons .delete-button {
+    background: #ffffff;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius:2px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 2px 4px 8px rgba(68, 68, 68, 0.6);
+}
+
+.buttons .delete-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.event-name {
+  margin: 0 10px;
+}
+.dashboard-container {
+  width: 80%;
+  margin: auto;
+}
+.stats-card {
+  width: 400px;
+  min-height: 300px;
+  background: #ffffff;
+  border: none;
+  float: left;
+}
+
+.info-card{
+  min-height: 130px;
+  background: #ffffff;
+  border: none;
+  float: left;
+}
+
+.dashboard-container img {
+  width: 60px;
+  height: auto;
+}
+
+.dashboard-container .stats-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.stats-card .info{
+  text-align: center;
+}
+
+.stats-card .info h4,
+.stats-card .info h6 {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.stats-card .info h4 {
+  color: #939393;
+  font-size: 30px;
+  margin: 10px auto;
+}
+#poll_div{
+  margin: auto 48px;
+}
+
+.end {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.dropdown-menu {
+  border: 0;
+  box-shadow: 2px 4px 8px rgba(68, 68, 68, 0.6);
+}
+
+.add-new {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-new-form {
+  width: 50%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.add-new-form h4 {
+  text-align: center;
+  margin: 20px auto;
+  font-family: 'Kievit_light', sans-serif;
+}
+
+.add-new-form .col-sm-10 {
+  margin: 0 auto !important;
+}
+
+.categories .hiddenCB form{
+  display: flex;
+}
+
+.categories .hiddenCB input[type="checkbox"],
+.categories .hiddenCB input[type="radio"] {
+    display: none;
+}
+
+.categories .hiddenCB label {
+    cursor: pointer;
+}
+
+.categories .hiddenCB input[type="checkbox"]+label {
+  min-width: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.categories .hiddenCB input[type="checkbox"]+label:hover{
+    background: rgba(0, 128, 128, .8);
+}
+
+.categories .hiddenCB input[type="checkbox"]:checked+label {
+    background: rgba(0, 128, 128, .4);
+}
+
+.categories .hiddenCB input[type="checkbox"]:checked+label:hover{
+    background: rgba(0, 128, 128, 0.7);
+}
+.categories .row .btn {
+  margin: 30px 10px;
+}
+
+.notice {
+  width: 25%;
+}
+
+.inline {
+  display: inline;
+}
+.events-header {
+  padding: 10px 20px 0 20px;
+}
+
+.company-details .row .btn {
+  margin: 10px;
+  height: 40px;
+}
+.events-header button{
+  margin: 10px 0;
+  height: 40px;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+}
+
+.dash-header {
+  font-family: 'Kievit_light', sans-serif;
+  text-transform: uppercase;
+}
+
+.image-header {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.dashboard-container .info-card {
+  width: 90% !important;
+}
+.header-details {
+  width: 180px;
+  color: #939393;
+  display: block;
+  text-align: center;
+
+}
+
+.custom-bt {
+    border-radius: 0;
+    padding: 7px 20px;
+}
+
+.header-details h4 {
+  color: #000000;
+}
+@media screen and (max-width:400px) {
+    .image-header {
+        opacity: 0;
+    }
+
+    .dashboard-container .info-card {
+        width: 92% !important;
+    }
+    .stats-card {
+        width: 400px;
+        min-height: 200px;
+        background: #ffffff;
+        border: none;
+        float: left;
+        box-shadow: 3px 3px 6px #888888;
+        border-radius: 4px;
+    }
+
+    .end, .xend {
+        box-shadow: 0 0 0 #888888;
+        border-radius: 0 !important;
+        margin: 15px auto;
+    }
+    .add-new {
+        margin-top: 100px;
+    }
+    .add-new-form {
+        width: 90%;
+        margin: 100px auto;
+    }
+    .notice {
+        width: 80% !important;
+    }
+
+    .card, .card img {
+        width: 300px;
+    }
+
+    .company-details {
+        width: 100vw;
+    }
+
+    .company-details .col-md-4 {
+        width: 100vw;
+        min-height: 400px;
+        padding-top: -20%;
+    }
+
+    .company-details .col-md-8 {
+        margin-top: 50px;
+    }
+
+    .outer {
+        display: table;
+        position: absolute;
+        min-height: 400px;
+        width: 100vw;
+        margin-left: -20px;
+    }
+
+    .inner {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw;
+        margin-top: -55%;
+        /*whatever width you want*/
+    }
+
+    .categories .hiddenCB input[type="checkbox"]+label {
+        min-width: 100px;
+        height: 40px;
+    }
+}

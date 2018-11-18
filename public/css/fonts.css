@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Kievit_book;
+    src: url(KievitOT-Book.otf);
+}
+
+@font-face {
+    font-family: Kievit_light;
+    src: url(KievitOT-Light.otf);
+}
+
+@font-face {
+    font-family: Kievit_medium;
+    src: url(KievitOT-Medium.otf);
+}
+
+@font-face {
+    font-family: Kievit_regular;
+    src: url(KievitOT-Regular.otf);
+}
